@@ -1,0 +1,6 @@
+{
+  "name": "Pixel Dodge",
+  "description": "A minimalist retro pixel art game dodging falling obstacles with daily streaks, quests, and rewards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Falling Obstacles / Meteors (Orange / Red pixel hazard blocks) -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M34,26h6v6h-6z M36,24h2v2h-2z M36,32h2v2h-2z" />
+    <path
+        android:fillColor="#F97316"
+        android:pathData="M70,32h6v6h-6z M72,30h2v2h-2z M72,38h2v2h-2z" />
+    <path
+        android:fillColor="#F43F5E"
+        android:pathData="M48,18h4v4h-4z" />
+
+    <!-- Trailing Motion Pixel Particles -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M36,20h2v2h-2z M72,26h2v2h-2z M50,14h1v1h-1z" />
+
+    <!-- Dodging Pixel Star Bonus -->
+    <path
+        android:fillColor="#FACC15"
+        android:pathData="M76,64h4v4h-4z M74,65h8v2h-8z M77,62h2v8h-2z" />
+
+    <!-- Hero Pixel Ship / Runner (Center Safe Zone) -->
+    <!-- Ship Cockpit / Core -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M52,50h4v4h-4z M50,54h8v6h-8z" />
+    <!-- Ship Hull Body (Cyan / White Retro Pixel) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,60h12v8h-12z M44,66h20v6h-20z" />
+    <!-- Wings & Thrusters -->
+    <path
+        android:fillColor="#06B6D4"
+        android:pathData="M40,70h6v6h-6z M62,70h6v6h-6z M38,74h4v4h-4z M66,74h4v4h-4z" />
+    <!-- Flame / Jet Engine Trail -->
+    <path
+        android:fillColor="#F97316"
+        android:pathData="M50,72h8v4h-8z M52,76h4v4h-4z" />
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M52,74h4v2h-4z" />
+    <!-- Energy Shield Arc -->
+    <path
+        android:fillColor="#A78BFA"
+        android:pathData="M42,50h2v2h-2z M64,50h2v2h-2z M36,58h2v4h-2z M70,58h2v4h-2z" />
+</vector>
